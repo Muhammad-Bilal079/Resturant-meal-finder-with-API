@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.searchBar input {
+    width: 300px;
+    height: 40px;
+    padding: 11px;
+    outline: none;
+    border-radius: 33px;
+    font-size: 18px;
+    border: 2px solid gray;
+}
+
+.searchBar button {
+    width: 60px;
+    height: 40px;
+    margin-left: -60px;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border: none;
+    color: white;
+    background-color: orangered;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.category {
+    width: 600px;
+    height: 200px;
+    /* background-color:rgb(207, 154, 154); */
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.category .dishes {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 1s ease;
+}
+
+.dishes input {
+    width: 100px;
+    height: 34px;
+    background-color: grey;
+    color: white;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.dishes input:hover {
+    background-color: rgb(207, 154, 154);
+    color: black;
+}
+
+.category button {
+    position: relative;
+    top: 34px;
+    background: transparent;
+    font-size: 27px;
+    border: none;
+    cursor: pointer;
+}
+
+#previouBtn {
+    padding: 11px;
+    /* cursor: pointer; */
+}
+
+#nextBtn {
+    margin-left: 90%;
+}
+
+.showMeal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.showMeal .card {
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    text-align: center;
+    margin-inline: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 3px 3px 3px grey;
+    border-radius: 4px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.card p {
+    margin-top: 11px;
+}
+
+.card button {
+    width: 90px;
+    height: 30px;
+    background-color: orangered;
+    margin-top: 11px;
+    border: none;
+}

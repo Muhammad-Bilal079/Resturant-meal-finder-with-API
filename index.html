@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meal Finder</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Meal Find using API</h1>
+            </div>
+            <div class="searchBar">
+                <input type="text" placeholder="Search here!" id="searchInput">
+                <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </nav>
+
+        <div class="category">
+            <button id="previousBtn"><i class="fa-solid fa-caret-left"></i></button>
+
+            <div class="dishes">
+                <input type="button" class="dishVal" value="Cake">
+                <input type="button" class="dishVal" value="Biryani">
+                <input type="button" class="dishVal" value="Cream">
+            </div>
+
+            <div class="dishes">
+                <input type="button" class="dishVal" value="Chicken">
+                <input type="button" class="dishVal" value="Biryani">
+                <input type="button" class="dishVal" value="Ice Cream">
+            </div>
+
+            <div class="dishes">
+                <input type="button" class="dishVal" value="Salad">
+                <input type="button" class="dishVal" value="Samosa">
+                <input type="button" class="dishVal" value="Cold dring">
+            </div>
+            <button id="nextBtn"><i class="fa-solid fa-caret-right"></i></button>
+        </div>
+
+        <div class="showMeal">
+
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
